@@ -1,0 +1,63 @@
+## Basic Configuration
+
+baseurl = "https://valentinaroman.ro"
+builddrafts = false
+canonifyurls = true
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Valentina Roman"
+title = "Valentina Roman"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Valentina Roman"
+intro = ""
+description = "Growth-focused and creative professional, experienced in PR&Marketing and with a passion for bringing to light stories that can change our world. <br><br>Keeping up-to-date with constantly evolving technologies and cultural trends. Always interested in finding the best communication mix to create effective dialogue and suitable partnerships in any context. "
+authorimage = "valentina_roman.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Valentina Roman - personal website"
+keywords = "pr, marketing, technology, culture, cultural, communication, romania"
+
+## Social Accounts
+[params.social]
+linkedin = "valentinaroman"
+instagram = "valentina_moments"
+email = "blog@valentinaroman.ro"
+
+## Extras
+[params.extra]
+copyright = "© 2019. Valentina Roman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = false
+socialmarkup = true
+
+## Main Menu
+[[menu.main]]
+    name = "Check out my reading recommendation on Good Reads »"
+    weight = 100
+    identifier = "reading_list"
+    url = "https://www.goodreads.com/user/show/94580919-valentina-roman"
+# [[menu.main]]
+#     name = "about"
+#     identifier = "about"
+#     weight = 200
+#     url = "/about/"
+# [[menu.main]]
+#     name = "coderag"
+#     identifier = "coderag"
+#     weight = 300
+#     url = "/coderag/"
