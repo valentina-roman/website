@@ -16,14 +16,14 @@ theme = "hugo-goa"
 
 ## Hugo Built-in Features
 # disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
-googleAnalytics = "XYZ"
+googleAnalytics = "UA-24119774-2"
 enableRobotsTXT = true
 
 ## Site Settings
 [params]
 author = "Valentina Roman"
 intro = ""
-description = "Growth-focused and creative professional, experienced in PR&Marketing and with a passion for bringing to light stories that can change our world. <br><br>Keeping up-to-date with constantly evolving technologies and cultural trends. Always interested in finding the best communication mix to create effective dialogue and suitable partnerships in any context. "
+description = "Growth-focused and creative professional with experience in public communications and a passion for bringing to light stories that can change our world. Keeping up-to-date with constantly evolving technologies and cultural trends. Always interested in finding the best ideas for an effective dialogue and suitable partnerships in any context."
 authorimage = "valentina_roman.jpg"
 dateformat = "Jan 2, 2006"
 
