@@ -21,12 +21,12 @@ jobs:
           hugo-version: 'latest'
           # extended: true
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
+      # - name: Setup Node.js
+      #   uses: actions/setup-node@v2
 
-      - name: Install dependencies
-        run: yarn install
-        working-directory: ./themes/dream
+      # - name: Install dependencies
+      #   run: yarn install
+      #   working-directory: ./themes/dream
 
       - name: Build
         run: hugo --minify
