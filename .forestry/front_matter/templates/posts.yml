@@ -26,3 +26,5 @@ fields:
 - type: boolean
   name: nolastmod
   label: nolastmod
+pages:
+- content/posts/cinci-activita-i-online-pentru-teambuilding.md
