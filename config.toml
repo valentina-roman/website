@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "https://valentinaroman.ro"
+baseurl = "https://valentina-roman.github.io/website/"
 builddrafts = false
 canonifyurls = true
 languageCode = "en-US"
