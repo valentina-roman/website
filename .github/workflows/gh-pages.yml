@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: false  # Fetch Hugo themes (true OR recursive)
+          submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
@@ -21,22 +21,17 @@ jobs:
           hugo-version: 'latest'
           # extended: true
 
-      - name: Yarn install
-      - uses: borales/actions-yarn@v2.3.0
-        working-directory: ./themes/dream
-        with:
-          cmd: install # will run `yarn install` command
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
 
-      - name: Yarn build
-      - uses: borales/actions-yarn@v2.3.0
+      - name: Install dependencies
+        run: yarn install
         working-directory: ./themes/dream
-        with:
-          cmd: prod # will run `yarn prod` command
 
-      - name: Build hugo
+      - name: Build
         run: hugo --minify
 
-      - name: Deploy github pages
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/master'
         with:
