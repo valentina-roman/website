@@ -1,8 +1,15 @@
 <header class="ui basic very padded segment dream-header">
   {{ if isset .Site.Params "avatar" }}
-  <div class="ui small circular image">
+  <div class="four wide column center">
+    <div class="ui small circular image">
     <img src="{{ .Site.Params.avatar | relURL }}" alt="avatar" />
   </div>
+  <div class="ui medium header">Let's connect</div>
+    
+  {{ partial "socials.html" (dict "Site" .Site "IconSize" "large") }}
+
+  </div>
+
   {{ end }}
 
   <div class="content">
@@ -15,9 +22,9 @@
       <span class="sub header">
         {{- .Site.Params.motto | safeHTML -}}
       </span>
-    </h1>
+    </h1> 
 
-    <article class="ui horizontal list">
+<!--     <article class="ui horizontal list">
       {{ if gt (len (where .Site.RegularPages "Section" "==" "posts")) 0 }}
       <a class="item" href="{{ "posts" | relLangURL }}">
         <i class="archive icon" title="{{ T "archives" }}"></i>
@@ -29,9 +36,9 @@
       <a class="item" href="{{ "tags" | relLangURL }}">
         <i class="tags icon" title="{{ T "allTags" }}"></i>
       </a>
-    </article>
+    </article> -->
 
-    {{ if .Site.Taxonomies.tags }}
+   <!--  {{ if .Site.Taxonomies.tags }}
     {{ $tags := slice }}
     {{ $first := slice }}
     {{ $rest := slice }}
@@ -84,6 +91,6 @@
     </div>
     {{ end }}
 
-    {{ end }}
+    {{ end }} -->
   </div>
 </header>

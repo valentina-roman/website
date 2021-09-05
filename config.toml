@@ -1,7 +1,7 @@
 ## Basic Configuration
 
-baseurl = "https://valentina-roman.github.io/website/"
-builddrafts = false
+baseurl = "https://valentinaroman.ro/"
+builddrafts = true
 canonifyurls = true
 languageCode = "en-US"
 
@@ -22,6 +22,10 @@ defaultContentLanguage = "en"
 googleAnalytics = "UA-24119774-2"
 enableRobotsTXT = true
 
+
+paginate = 100
+
+
 [params]
   background = "#fff"
   linkColor = "seagreen"
@@ -36,9 +40,11 @@ enableRobotsTXT = true
   images = [""]
 
   headerTitle = "Valentina Roman"
-  motto = "I am a digital project manager with a 360° perspective, passionate about understanding what makes projects truly successful and why. I’ve worn every hat in the communication domain: from PR to marketing, from content writing to e-commerce growth strategies, from managing volunteers to business development, from CSR campaigns to product development and AI technologies.<br><br>In my spare time, I am writing about my experience in managing diverse teams while directly reporting to high-profile senior managers. Take your moment to read my articles as I hope you will find them useful and inspiring!"
 
-  avatar = "/img/valentina_roman.jpg"
+  motto = "I am a digital project manager with a 360° perspective, passionate about understanding what makes projects truly successful and why. I’ve worn every hat in the communication domain: from PR to marketing, from content writing to e-commerce growth strategies, from managing volunteers to business development, from CSR campaigns to product development and AI technologies.<br><br>In my spare time, I am writing about my experience in managing diverse teams while directly reporting to high-profile senior managers.<br><br> Take your moment to read my articles as I hope you will find them useful and inspiring!"
+
+  avatar = "/img/Poza_ValentinaRoman.jpg"
+
 
   # maxTags = 5
   # categoriesLimitInHeader = 6 # deprecated
@@ -46,13 +52,12 @@ enableRobotsTXT = true
 
   # footerBottomText = ""
 
-  rss = true
+  rss = false
 
-  email = "valentina.st.roman@gmail.com"
-  twitter = "valentinaroman"
-  facebook = "valentinaroman"
-  instagram = "valentinaroman"
+  email = "blog@valentinaroman.ro"
+  instagram = "valentina_moments"
   linkedin = "valentinaroman"
+  showSummaryCoverInPost = true
 
   siteStartYear = 2021
 

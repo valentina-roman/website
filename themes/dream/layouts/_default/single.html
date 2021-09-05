@@ -100,8 +100,14 @@
       </header>
 
       <article class="main">
+                      {{ if isset .Params "author" }}
+                {{ if isset .Params "authorlink" }}
+                  <a href="{{ .Params.authorlink }}" target="_blank">
         {{ if and .Params.Cover .Site.Params.showSummaryCoverInPost }}
         <img class="cover" src="{{ .Params.Cover }}" />
+        {{ end }}
+        </a>
+        {{ end }}
         {{ end }}
 
         {{ .Content | emojify }}
