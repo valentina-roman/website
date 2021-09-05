@@ -12,52 +12,51 @@ publishdir = "public"
 author = "Valentina Roman"
 title = "Valentina Roman"
 
-theme = "hugo-goa"
+theme = "dream"
+
+defaultContentLanguage = "en"
+
 
 ## Hugo Built-in Features
 # disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
 googleAnalytics = "UA-24119774-2"
 enableRobotsTXT = true
 
-## Site Settings
 [params]
-author = "Valentina Roman"
-intro = ""
-description = "Growth-focused and creative professional with experience in public communications and a passion for bringing to light stories that can change our world.\n\n Keeping up-to-date with constantly evolving technologies and cultural trends. Always interested in finding the best ideas for an effective dialogue and suitable partnerships in any context."
-authorimage = "valentina_roman.jpg"
-dateformat = "Jan 2, 2006"
+  background = "#fff"
+  linkColor = "seagreen"
 
-## Site Meta Settings
-[params.meta]
-description = "Valentina Roman - personal website"
-keywords = "pr, marketing, technology, culture, cultural, communication, romania"
+  # dark mode
+  # defaultDark = true
+  backgroundDark = "black"
+  darkLinkColor = "darkseagreen"
+  # darkNav = true
+  # dark404 = true
 
-## Social Accounts
-[params.social]
-linkedin = "valentinaroman"
-instagram = "valentina_moments"
-email = "blog@valentinaroman.ro"
+  images = [""]
 
-## Extras
-[params.extra]
-copyright = "© 2019. Valentina Roman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
-poweredby = true
-highlightjs = false
-socialmarkup = true
+  headerTitle = "Valentina Roman"
+  motto = "I am a digital project manager with a 360° perspective, passionate about understanding what makes projects truly successful and why. I’ve worn every hat in the communication domain: from PR to marketing, from content writing to e-commerce growth strategies, from managing volunteers to business development, from CSR campaigns to product development and AI technologies.<br><br>In my spare time, I am writing about my experience in managing diverse teams while directly reporting to high-profile senior managers. Take your moment to read my articles as I hope you will find them useful and inspiring!"
 
-## Main Menu
-[[menu.main]]
-    name = "Check out my reading recommendation on Good Reads »"
-    weight = 100
-    identifier = "reading_list"
-    url = "https://www.goodreads.com/user/show/94580919-valentina-roman"
-# [[menu.main]]
-#     name = "about"
-#     identifier = "about"
-#     weight = 200
-#     url = "/about/"
-# [[menu.main]]
-#     name = "coderag"
-#     identifier = "coderag"
-#     weight = 300
-#     url = "/coderag/"
+  avatar = "/img/valentina_roman.jpg"
+
+  # maxTags = 5
+  # categoriesLimitInHeader = 6 # deprecated
+  # headerBottomText = "" # deprecated
+
+  # footerBottomText = ""
+
+  rss = true
+
+  email = "valentina.st.roman@gmail.com"
+  twitter = "valentinaroman"
+  facebook = "valentinaroman"
+  instagram = "valentinaroman"
+  linkedin = "valentinaroman"
+
+  siteStartYear = 2021
+
+  favicon = "/favicon.ico"
+
+  # search
+  enableSearch = false
