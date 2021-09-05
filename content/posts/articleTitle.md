@@ -1,6 +1,5 @@
 ---
-title: works - Cum comunicăm cu membrii echipei atunci când fac parte din generații
-  diferite
+title: Cum comunicăm cu membrii echipei atunci când fac parte din generații diferite
 date: 2021-09-05T16:10:00.000+03:00
 lastmod: 2021-09-05T16:10:00.000+03:00
 author: Valentina Roman
